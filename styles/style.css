@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+}
+
+.local-criar {
+    background-color: #e5ecf1f7;
+    padding: 2%;
+    display: flex;
+}
+
+.local-criar input {
+    width: 250px;
+    padding: 2%;
+    border: 1px solid #000;
+    margin-right: 5px;
+}
+
+.local-criar button {
+    width: 100px;
+    padding: 2.3%;
+    background-color: #85efd3;
+}
+
+.bloco {
+    background-color: #85efd3;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    margin-top: 1vh;
+}
+
+.bloco button {
+    background-color: transparent;
+    width: 40px;
+    font-weight: 700;
+}
